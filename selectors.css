@@ -1,0 +1,41 @@
+header{
+  border: 1px solid navy;
+}
+
+header li {
+  display: inline-block;
+}
+
+.disabled {
+  color:grey;
+}
+
+a .disabled {
+  color:purple;
+}
+
+.active {
+  color:yellow;
+}
+
+.parent div:nth-last-of-type(4){
+  color:red;
+}
+
+.parent h4 div:nth-of-type(1){
+  color:blue;
+}
+
+h4:nth-child() {
+  border: 1px;
+  border-radius: 3px;
+}
+
+.promo {
+  font-weight: bold;
+  color:green;
+}
+
+input {
+  height: 25px;
+}
